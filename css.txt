@@ -1,0 +1,45 @@
+body {
+    background-color: #ffff9d;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}  
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.big-square {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.row {
+    display: flex;
+}
+
+.square-green,
+.square-light-green {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 2px;
+}
+
+.square-green {
+    background-color: #0ba30a;
+}
+
+.square-light-green {
+    background-color: #72bd20;
+}
